@@ -3,14 +3,14 @@
     <string name="version">Version: 0.1.0</string>
     <string name="menu1">Login</string>
     <string name="menu2">Connect</string>
-    <string name="menu3">DPresence</string>
+    <string name="menu3">Presence</string>
     <string name="menu4">About</string>
     <string name="connect">Connect</string>
     <string name="status">Status</string>
     <string name="rich_presence">Presence</string>
     <string name="load">Load</string>
     <string name="more">Theme</string>
-    <string name="discord_rpc">Presence</string>
+    <string name="discord_rpc">DPresence</string>
     <string name="connect_to_discord">Connect to Discord</string>
     <string name="logout">Logout and Restart</string>
     <string name="login">Login</string>

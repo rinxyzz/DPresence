@@ -33,7 +33,7 @@
     <string name="set">Mengatur</string>
     <string name="cancel">Membatalkan</string>
     <string-array name="status_types">
-        <item>On line</item>
+        <item>Online</item>
         <item>Menganggur</item>
         <item>Jangan ganggu</item>
         <item>Tak terlihat</item>
@@ -74,7 +74,7 @@
     <string name="button_2_url">Tombol 2 URL</string>
     <string name="view_log">Melihat log</string>
     <string name="no_log_here">Tidak ada Log di sini</string>
-    <string name="save_current">Hemat Saat Ini</string>
+    <string name="save_current">Simpan saat ini</string>
     <string name="activity_flags">Tanda Aktivitas</string>
     <string-array name="activity_types">
         <item>Bermain</item>

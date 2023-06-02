@@ -21,7 +21,7 @@
     <string name="about_me">About Me</string>
     <string name="about_me_text">I am a 21 years old (2001) Im Rin a skilled developer experienced in Java Node.js JavaScript Python PHP HTML and CSS.\nWith a passion for crafting efficient and robust software solutions I thrive in creating impactful applications and websites.</string>
     <string name="info">Information</string>
-    <string name="information">Version: 1.1.0 GitHub: rinxyzz/Presence-Android</string>
+    <string name="information">Version: 1.1.0 GitHub: rinxyzz/Presence-Android\nOriginal: JasonBenfrin/Discord-Rich-Presence-Android</string>
     <string name="go_to_github">Github Repository</string>
     <string name="pfpf">Visit Website</string>
     <string name="infoscrollview">InfoScrollView</string>

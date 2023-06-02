@@ -19,8 +19,7 @@ class Info : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val githubButton : Button = view.findViewById(R.id.github)
         githubButton.setOnClickListener{ github() }
-        val visit : Button = view.findViewById(R.id.visit)
-        githubButton.setOnClickListener{ visit() }
+        view.findViewById<Button>(R.id.visit).setOnClickListener { visit() }
         view.findViewById<Button>(R.id.viewLog).setOnClickListener { viewLog() }
     }
 

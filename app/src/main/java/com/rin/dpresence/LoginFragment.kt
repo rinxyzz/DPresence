@@ -49,7 +49,7 @@ class LoginFragment : Fragment() {
         token = context?.let { MainActivity.getToken(it) }
         if (token == null) {
             image.visibility = View.GONE
-            textView.text = "You are not logged in, please log in first"
+            textView.text = "Login First To Use DPresence"
             logout.visibility = View.GONE
         }else{
             login.visibility = View.GONE
@@ -57,7 +57,7 @@ class LoginFragment : Fragment() {
             if (file.exists()) {
                 context?.let { updateUser(it, file, textView, image) }
             }else{
-                textView.text = "Testing the extracted token, please wait..."
+                textView.text = "Loading..."
                 Thread {
                     val request =
                         Request.Builder().url("wss://gateway.discord.gg/?v=10&encoding=json").build()
@@ -118,7 +118,7 @@ class LoginFragment : Fragment() {
             if (file.exists()) {
                 context?.let { updateUser(it, file, textView, image) }
             }else{
-                textView.text = "Testing the extracted token, please wait..."
+                textView.text = "Loading..."
                 Thread {
                     val request =
                         Request.Builder().url("wss://gateway.discord.gg/?v=10&encoding=json").build()
@@ -180,7 +180,7 @@ class LoginFragment : Fragment() {
     @SuppressLint("SetTextI18n")
     fun updateFailure() {
         requireActivity().runOnUiThread{
-            viewT.findViewById<TextView>(R.id.textView4)?.text = "Failed to test the token. Please Logout and Login again"
+            viewT.findViewById<TextView>(R.id.textView4)?.text = "Failed to Fetch Data,Please Logout and Login again"
         }
     }
 }

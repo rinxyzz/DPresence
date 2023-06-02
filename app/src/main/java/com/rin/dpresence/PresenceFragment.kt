@@ -1,4 +1,4 @@
-package tk.jasonbenfrin.discordrpc
+package com.rin.dpresence
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver

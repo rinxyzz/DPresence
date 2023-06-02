@@ -1,4 +1,4 @@
-package tk.jasonbenfrin.discordrpc
+package com.rin.dpresence
 
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -1,4 +1,4 @@
-package tk.jasonbenfrin.discordrpc
+package com.rin.dpresence
 
 import android.content.Intent
 import android.net.Uri
@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.ImageButton
 import androidx.fragment.app.Fragment
 
 class Info : Fragment() {
@@ -18,13 +17,19 @@ class Info : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val githubButton : ImageButton = view.findViewById(R.id.github)
+        val githubButton : Button = view.findViewById(R.id.github)
         githubButton.setOnClickListener{ github() }
+        val visit : Button = view.findViewById(R.id.visit)
+        githubButton.setOnClickListener{ visit() }
         view.findViewById<Button>(R.id.viewLog).setOnClickListener { viewLog() }
     }
 
     private fun github() {
-        startActivity(Intent("android.intent.action.VIEW", Uri.parse("https://github.com/JasonBenfrin/Discord-Rich-Presence-Android")))
+        startActivity(Intent("android.intent.action.VIEW", Uri.parse("https://github.com/rinxyzz/Presence-Android")))
+    }
+
+    private fun visit() {
+        startActivity(Intent("android.intent.action.VIEW", Uri.parse("https://rin4ever.xyz")))
     }
 
     private fun viewLog() {

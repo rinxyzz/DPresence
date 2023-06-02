@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">DPresence</string>
+    <string name="version">Versi: 0.1.0</string>
+    <string name="menu1">Gabung</string>
+    <string name="menu2">Menghubung</string>
+    <string name="menu3">Presence</string>
+    <string name="menu4">Tentang</string>
+    <string name="connect">Menghubung</string>
+    <string name="status">Status</string>
+    <string name="rich_presence">DPresence</string>
+    <string name="load">Memuat</string>
+    <string name="more">Tema</string>
+    <string name="discord_rpc">DPresence</string>
+    <string name="connect_to_discord">Hubungkan ke Discord</string>
+    <string name="logout">Logout dan Mulai Ulang</string>
+    <string name="login">Gabung</string>
+    <string name="disclaimer">Penafian</string>
+    <string name="text">Aplikasi ini dibuat oleh JasonBenfrin And LateNightReader(Rin) untuk tujuan pendidikan. Pembuat aplikasi ini tidak bertanggung jawab atas kebocoran token. Pengembang tidak mengumpulkan data dengan cara apa pun, termasuk token. Gunakan itu sebagai risiko Anda sendiri.</string>
+    <string name="creditsTo">Aplikasi ini sangat terinspirasi oleh yzziK#3050\nLihat saluran YouTube-nya Vaibhav..</string>
+    <string name="credits">Kredit</string>
+    <string name="about_me">Tentang saya</string>
+    <string name="about_me_text">Saya berusia 21 tahun (2001) Saya Rin seorang pengembang terampil yang berpengalaman dalam Java Node.js JavaScript Python PHP HTML dan CSS.\nDengan hasrat untuk membuat solusi perangkat lunak yang efisien dan tangguh, saya berkembang pesat dalam membuat aplikasi dan situs web yang berdampak.</string>
+    <string name="info">Informasi</string>
+    <string name="information">Versi: 1.1.0 GitHub: rinxyzz/DPresence\nAsli: JasonBenfrin/Discord-Rich-Presence-Android</string>
+    <string name="go_to_github">Repositori Github</string>
+    <string name="pfpf">Kunjungi Situs Web</string>
+    <string name="infoscrollview">InfoScrollView</string>
+    <string name="settings">Pengaturan</string>
+    <string name="back">Kembali</string>
+    <string name="show_all">Tunjukkan semua</string>
+    <string name="since">Sejak</string>
+    <string name="afk">AFK</string>
+    <string name="set">Mengatur</string>
+    <string name="cancel">Membatalkan</string>
+    <string-array name="status_types">
+        <item>On line</item>
+        <item>Menganggur</item>
+        <item>Jangan ganggu</item>
+        <item>Tak terlihat</item>
+        <item>Luring</item>
+    </string-array>
+    <string name="notification_service_id">1</string>
+    <string name="notification_service_name">Layanan Latar Belakang</string>
+    <string name="notification_service_description">Pemberitahuan untuk kehadiran latar belakang</string>
+    <string name="notification_error_id">2</string>
+    <string name="notification_error_name">Notifikasi Kesalahan</string>
+    <string name="notification_error_description">Pemberitahuan untuk kesalahan kehadiran di latar belakang</string>
+    <string name="activity">Aktivitas</string>
+    <string name="name">Nama</string>
+    <string name="created_at">Dibuat di</string>
+    <string name="url">URL</string>
+    <string name="details">Detail</string>
+    <string name="emoji_name">Nama Emoji</string>
+    <string name="emoji_id">Nomor Emoji</string>
+    <string name="animated">Animasi Emoji</string>
+    <string name="timestamp_start">Stempel Waktu Mulai</string>
+    <string name="timestamp_end">Stempel Waktu Berakhir</string>
+    <string name="application_id">Nomor Aplikasi</string>
+    <string name="party_state">Negara Partai</string>
+    <string name="party_id">Id Partai</string>
+    <string name="party_size_current">Ukuran Partai Saat Ini</string>
+    <string name="party_size_max">Ukuran Pesta Maks</string>
+    <string name="large_image_url">URL Gambar Besar</string>
+    <string name="large_image_text">Teks Gambar Besar</string>
+    <string name="small_image_url">URL Gambar Kecil</string>
+    <string name="small_image_text">Teks Gambar Kecil</string>
+    <string name="join_secret">Gabung Rahasia</string>
+    <string name="match_secret">Rahasia Pertandingan</string>
+    <string name="spectate_secret">Lihatlah Rahasia</string>
+    <string name="instance">Contoh</string>
+    <string name="button_1_label">Tombol 1 Label</string>
+    <string name="button_2_label">Tombol 2 Label</string>
+    <string name="button_1_url">Tombol 1 URL</string>
+    <string name="button_2_url">Tombol 2 URL</string>
+    <string name="view_log">Melihat log</string>
+    <string name="no_log_here">Tidak ada Log di sini</string>
+    <string name="save_current">Hemat Saat Ini</string>
+    <string name="activity_flags">Tanda Aktivitas</string>
+    <string-array name="activity_types">
+        <item>Bermain</item>
+        <item>Mengalir</item>
+        <item>Mendengarkan</item>
+        <item>Menonton</item>
+        <item>Kebiasaan</item>
+        <item>Bersaing</item>
+    </string-array>
+    <attr name="hollowButtonStyle" format="reference"/>
+    <string name="login_description">Tetapkan Gambar Sebagai Profil</string>
+</resources>

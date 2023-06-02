@@ -15,13 +15,13 @@
     <string name="logout">Logout and Restart</string>
     <string name="login">Login</string>
     <string name="disclaimer">Disclaimer</string>
-    <string name="text">This app is made by LateNightReader(Rin) for Educational purposes. The creator of this app is not responsible for token leaks. The developer doesn\'t collect data in any way, including tokens. Use it as your own risk.</string>
+    <string name="text">This app is made by JasonBenfrin And LateNightReader(Rin) for Educational purposes. The creator of this app is not responsible for token leaks. The developer doesn\'t collect data in any way, including tokens. Use it as your own risk.</string>
     <string name="creditsTo">This app is massively inspired by yzziK#3050\nCheck out his YouTube channel Vaibhav..</string>
     <string name="credits">Credits</string>
     <string name="about_me">About Me</string>
     <string name="about_me_text">I am a 21 years old (2001) Im Rin a skilled developer experienced in Java Node.js JavaScript Python PHP HTML and CSS.\nWith a passion for crafting efficient and robust software solutions I thrive in creating impactful applications and websites.</string>
     <string name="info">Information</string>
-    <string name="information">Version: 1.1.0 GitHub: rinxyzz/Presence-Android</string>
+    <string name="information">Version: 1.1.0 GitHub: rinxyzz/Presence-Android\n Original: JasonBenfrin/Discord-Rich-Presence-Android</string>
     <string name="go_to_github">Github Repository</string>
     <string name="pfpf">Visit Website</string>
     <string name="infoscrollview">InfoScrollView</string>

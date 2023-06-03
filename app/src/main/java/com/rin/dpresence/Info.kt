@@ -24,7 +24,7 @@ class Info : Fragment() {
     }
 
     private fun github() {
-        startActivity(Intent("android.intent.action.VIEW", Uri.parse("https://github.com/rinxyzz/Presence-Android")))
+        startActivity(Intent("android.intent.action.VIEW", Uri.parse("https://github.com/rinxyzz/DPresence")))
     }
 
     private fun visit() {

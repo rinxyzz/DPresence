@@ -32,14 +32,6 @@
         <item name="materialThemeOverlay">@style/ThemeOverlay.DiscordRPC.NavigationRail</item>
     </style>
 
-    <style name="ThemeOverlay.DiscordRPC.ConnectButton" parent="">
-        <item name="colorPrimary">@color/menu_ripple</item>
-        <item name="colorSurface">@color/menu_background</item>
-    </style>
-    <style name="Widget.DiscordRPC.ConnectButton" parent="Widget.Material3.Button.Icon">
-        <item name="materialThemeOverlay">@style/ThemeOverlay.DiscordRPC.ConnectButton</item>
-    </style>
-
     <style name="ThemeOverlay.DiscordRPC.Switches" parent="">
         <item name="colorPrimary">@color/active_thumb</item>
         <item name="colorPrimaryContainer">@color/menu_active</item>
@@ -53,8 +45,5 @@
     </style>
     <style name="Widget.DiscordRPC.CheckBox" parent="Widget.Material3.CompoundButton.CheckBox">
         <item name="materialThemeOverlay">@style/ThemeOverlay.DiscordRPC.CheckBox</item>
-    </style>
-    <style name="asdf" parent="ThemeOverlay.MaterialComponents.TimePicker">
-
     </style>
 </resources>

@@ -129,6 +129,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
         android:text="@string/view_log"
         android:textColor="@color/text_inverse"
         app:backgroundTint="@color/menu_text"
@@ -140,7 +141,7 @@
         android:id="@+id/github"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="8dp"
         android:text="@string/go_to_github"
         android:textColor="@color/text_inverse"
         app:backgroundTint="@color/menu_text"
@@ -153,7 +154,7 @@
         android:id="@+id/visit"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="96dp"
+        android:layout_marginBottom="68dp"
         android:paddingTop="10dp"
         android:text="@string/pfpf"
         android:textColor="@color/text_inverse"
@@ -161,8 +162,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="@+id/guideline4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
